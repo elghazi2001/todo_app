@@ -1,0 +1,25 @@
+{
+  "name": "server_todo",
+  "version": "1.0.0",
+  "description": "Server side for todo app",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start" : "nodemon server.js" 
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elghazi2001/todo_app.git"
+  },
+  "author": "Farouk Elghazi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/elghazi2001/todo_app/issues"
+  },
+  "homepage": "https://github.com/elghazi2001/todo_app#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mysql2": "^3.9.1",
+    "nodemon": "^3.0.3"
+  }
+}
